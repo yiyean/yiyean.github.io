@@ -4,7 +4,7 @@
 @import "https://fonts.googleapis.com/css?family=Caveat";
 
 body {
-  background-image: url('images/bg.jpg');
+  background-image: url('bg.jpg');
   background-size: cover;
   opacity: 90%;
   font-family: 'Helvetica Neue', sans-serif;
