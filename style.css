@@ -2,6 +2,7 @@
 @import "font-awesome";
 @import "https://fonts.googleapis.com/css?family=Dancing Script";
 @import "https://fonts.googleapis.com/css?family=Caveat";
+@import "https://fonts.googleapis.com/css?family=Avenir Light";
 
 body {
   background-image: url('bg.jpg');
@@ -111,11 +112,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Light';
   font-weight: 700;
   line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+}
+
+p {
+  font-family: 'Avenir Light';
+  font-weight: 500;
+  line-height: 1;
+  margin: 1rem 0;
+  text-align: justify;
 }
 
 @media (max-width: 767px) {
