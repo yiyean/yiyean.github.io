@@ -1,0 +1,322 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "https://fonts.googleapis.com/css?family=Dancing Script";
+@import "https://fonts.googleapis.com/css?family=Caveat";
+
+body {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  opacity: 90%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0; 
+  background-color: #fda172;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  margin: 0 5rem 0 1rem; 
+  font-family: 'Dancing Script';
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.nav-link {
+  font-family: 'Caveat';
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem;
+  background-color: #ffcdb2;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 10px rgba(108, 71, 40, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-2 {
+  margin-bottom: 5rem;
+  width: 60%;
+}
+
+.section-3 {
+  margin-bottom: 8rem;
+  width: 60%;
+}
+
+.section-2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-2 li {
+  margin-bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  .section-1 h1 {
+    font-size: 28px;
+  }
+
+  .section-2 h2 {
+    font-size: 24px;
+  }
+}
+
+.container>*:first-child {
+  grid-column: 1 / -1;
+}
+
+
+.cakes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cakes-item {
+  flex: 1 0 300px;
+  border: 0.3rem solid #ffc594;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.cakes-item:hover {
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(108, 71, 40, 0.3);
+}
+
+.cakes-item h3 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.cakes-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .cakes-item {
+    width: 100%;
+  }
+}
+
+
+.fixed-bottom {
+  background-color: #fda172;
+  padding: 1rem;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-bottom p {
+  margin:0;
+  padding:0;
+}
+
+.cake-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cake-item {
+  border: 0.3rem solid #ffc594;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 20%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.cake-item:hover {
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(108, 71, 40, 0.3);
+}
+
+.cake-item h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.cake-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .cake-item {
+    width: 100%;
+  }
+}
+
+#chocolate-cake,
+#cheese-cake,
+#lemon-cake {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-info {
+  margin-bottom: 2rem;
+}
+
+.cake-info img {
+  width: 60%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.recipe {
+  width: 100%;
+}
+
+.recipe h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe ul {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe ol {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-3 form {
+  width: 100%;
+  margin: 2rem;
+}
+
+.section-3 form table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.section-3 form td {
+  margin: 2rem;
+}
+
+.section-3 form td:first-child {
+  width: 10%;
+}
+
+.section-3 form td:last-child {
+  width: 70%;
+}
+
+.section-3 form input {
+  height: 2rem;
+  width: 100%;
+  resize: vertical;
+}
+
+.section-3 form textarea {
+  height: 4rem;
+  width: 100%;
+  resize: vertical;
+}
+
+.section-3 form select {
+  height: 2rem;
+  width: 100%;
+  resize: vertical;
+}
+
+.section-3 form button[type="submit"] {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.7rem 1.5rem;
+  border-color: 1rem #fda172;
+}
+
+.comment .star {
+  color: orange;
+  margin-right: 0.2rem;
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mystery Dessert Diary | Cake Recipes</title>
+  <meta name="description"
+    content="Explore our collection of delicious cake recipes on Mystery Dessert Diary. From classic flavors to creative twists, we have something for everyone.">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="cake recipes, baking, desserts, sweets">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <span class="navbar-brand">Mystery Dessert Diary</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          style="color: black; border-radius: 1rem;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item" style="margin: 0 1rem;">
+              <a class="nav-link" aria-current="page" href="home.html"><i class="bi bi-house-door"
+                  style="margin: 0 0.3rem;"></i>Home</a>
+            </li>
+            <li class="nav-item" style="margin: 0 1rem;">
+              <a class="nav-link" href="cakes.html"><i class="bi bi-journal-richtext"
+                  style="margin: 0 0.3rem;"></i>Cakes</a>
+            </li>
+            <li class="nav-item" style="margin: 0 1rem;">
+              <a class="nav-link" href="about.html"><i class="bi bi-info-circle" style="margin: 0 0.3rem;"></i>About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  </header>
+
+  <div class="container">
+    <!-- <section> -->
+    <div class="section section-1">
+      <h1>Cake Recipes</h1>
+      <p>Check out our new recipes!</p>
+      <div class="cake-list">
+        <div class="cake-item" onclick="showSection('chocolate-cake')">
+          <h2>Chocolate Delight Cake</h2>
+          <img src="images/chocolate-cake.jpg" alt="Chocolate cake" />
+        </div>
+        <div class="cake-item" onclick="showSection('cheese-cake')">
+          <h2>Silky Cream Cheese Cake</h2>
+          <img src="images/cheese-cake.jpg" alt="Cheese cake" />
+        </div>
+        <div class="cake-item" onclick="showSection('lemon-cake')">
+          <h2>Lemon Seismic Cake</h2>
+          <img src="images/lemon-cake.jpg" alt="Lemon cake" />
+        </div>
+        <div class="cake-item" onclick="showSection('redvelvet-cake')">
+          <h2>Decadent Red Velvet Cake</h2>
+          <img src="images/redvelvet-cake.jpg" alt="Red Velvet cake" />
+        </div>
+      </div>
+    </div>
+
+    <!-- </section> -->
+    <div class="section section-2" style="display:none;">
+      <section id="chocolate-cake" style="display:none;">
+        <div class="cake-info">
+          <h2>Decadent Chocolate Delight Cake</h2>
+          <p>This luscious chocolate cake is an indulgent treat perfect for any occasion. It's luxuriously rich, moist,
+            and bursting with irresistible chocolate flavor!
+          </p>
+          <img src="images/chocolate2-cake.jpg" alt="Chocolate cake" />
+        </div>
+        <div class="recipe">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>90g unsweetened cocoa powder</li>
+            <li>112g vegetable oil</li>
+            <li>210g all-purpose flour</li>
+            <li>237g freshly brewed coffee</li>
+            <li>240g buttermilk, room temperature</li>
+            <li>400g granulated sugar</li>
+            <li>1 teaspoon baking powder</li>
+            <li>1 teaspoon kosher salt</li>
+            <li>2 teaspoons baking soda</li>
+            <li>2 teaspoons vanilla extract</li>
+            <li>2 large eggs, room temperature</li>
+          </ul>
+          <h3>Instructions</h3>
+          <ol>
+            <li>Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl and mix until combined.
+            </li>
+            <li>In another bowl, combine the buttermilk, oil, eggs, and vanilla.</li>
+            <li>With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the
+              coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula.</li>
+            <li>Pour the batter into two 8-inch round pans and bake for 30-40 minutes at 350°F, until a cake tester
+              comes out mostly clean (not wet).</li>
+            <li>Cool in the pans for about 10 minutes, then turn them out onto a cooling rack and cool completely.</li>
+          </ol>
+        </div>      
+      </section>
+
+      <section id="cheese-cake" style="display:none;">
+        <div class="cake-info">
+          <h2>Silky Cream Cheese Delight Cake</h2>
+          <p>This luscious cheesecake features a smooth and silky cream cheese filling and a delectable buttery graham
+            cracker crumb crust. It's the perfect canvas for your favorite fruit toppings and an irresistible indulgence
+            for any special occasion.</p>
+          <img src="images/cheese2-cake.jpg" alt="Cheese cake" />
+        </div>
+        <div class="recipe">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>75g unsalted butter, melted</li>
+            <li>120g sour cream, room temperature</li>
+            <li>210g graham cracker crumbs</li>
+            <li>250g superfine granulated sugar</li>
+            <li>2 teaspoons confectioners' sugar</li>
+            <li>2 teaspoons vanilla extract</li>
+            <li>2 tablespoons granulated sugar</li>
+            <li>5 large eggs, room temperature</li>
+            <li>4 packages (8 oz. each) cream cheese, softened</li>
+          </ul>
+          <h3>Instructions</h3>
+          <ol>
+            <li>Preheat the oven to 350°F.</li>
+            <li>Mix graham cracker crumbs, sugar, and butter. Make sure all graham crackers are coated in butter and
+              that it is a coarse sand consistency.</li>
+            <li>Press crust onto the bottom and 2/3 of the way up a 9-inch springform pan lined with parchment. Wrap 2
+              pieces of heavy-duty tin foil around the bottom and sides of the pan. Set aside.</li>
+            <li>Use an electric mixer or stand mixer fitted with the whisk attachment to mix cream cheese until creamed.
+            </li>
+            <li>Beat in the sugar and scrape down the sides of the bowl.</li>
+            <li>Add in the sour cream and vanilla. Blend until smooth and creamy. Scrape down sides of the bowl. With
+              the mixer on low, add in eggs one by one until fully incorporated.</li>
+            <li>Pour the filling in the crust. Carefully place the cheesecake into the pan and then place both in the
+              oven. Fill with halfway up the side of the springform pan with water. </li>
+            <li>Bake until the top of the cheesecake turns golden, about 60-70 minutes. Remove from oven. Let the
+              cheesecake cool on a wire rack.</li>
+            <li>Combine sour cream and sugar, spread over cheesecake. Cover and refrigerate at least 4 hours.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="lemon-cake" style="display:none;">
+        <div class="cake-info">
+          <h2>Luscious Lemon Seismic Cake</h2>
+          <p>The Luscious Lemon Seismic Cake is a decadent dessert that begins with a layer of shredded coconut and
+            crunchy macadamia nuts. This is followed by a rich and tangy lemon cake with a luscious cream cheese swirl,
+            all topped off with a sprinkling of white chocolate chips and baked to perfection. Every bite of this
+            dessert is sure to send seismic waves of delight through your taste buds!</p>
+          <img src="images/lemon2-cake.jpg" alt="Lemon cake" />
+        </div>
+        <div class="recipe">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>57g chopped macadamia nuts</li>
+            <li>80g sweetened shredded coconut</li>
+            <li>113g unsalted butter, melted</li>
+            <li>168g white chocolate chips</li>
+            <li>312.5g confectioners' sugar</li>
+            <li>¼ teaspoon kosher salt</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 package (8 ounces) cream cheese, softened</li>
+            <li>1 box (15.25 ounces) lemon cake mix, mixed according to package directions</li>
+          </ul>
+          <h3>Instructions</h3>
+          <ol>
+            <li>Preheat oven to 350°F and grease a 9×13-inch pan with cooking spray.</li>
+            <li>Prepare the cake batter according to package directions.</li>
+            <li>Sprinkle the coconut and macadamia nuts onto the bottom of the prepared pan.</li>
+            <li>Spread your cake batter over the top. Set aside.</li>
+            <li>Meanwhile, in a large bowl, combine the cream cheese, butter, confectioners' sugar, vanilla, and salt.
+              Beat with a mixer until combined. Dollop the mixture over the cake and use a knife to marble.</li>
+            <li>Sprinkle white chocolate chips on top and bake for about 55-60 minutes, or until the center is set.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="redvelvet-cake" style="display:none;">
+        <div class="cake-info">
+          <h2>Decadent Red Velvet Cake</h2>
+          <p>This indulgent red velvet cake is a crowd-pleaser. The rich and moist cake is filled with velvety smooth
+            cream cheese frosting and finished off with a sprinkling of dark chocolate shavings for a deliciously
+            satisfying and luxurious dessert.</p>
+          <img src="images/redvelvet2-cake.jpg" alt="Red Velvet cake" />
+        </div>
+        <div class="recipe">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>39g unsweetened cocoa powder</li>
+            <li>113g hot water</li>
+            <li>113g unsalted butter, room temperature</li>
+            <li>232g mayonnaise, room temperature</li>
+            <li>245g buttermilk, room temperature</li>
+            <li>250g all-purpose flour</li>
+            <li>400g granulated sugar</li>
+            <li>500g confectioners' sugar</li>
+            <li>1 teaspoon baking powder</li>
+            <li>1 teaspoon baking soda</li>
+            <li>1 teaspoon kosher salt</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 teaspoon white distilled vinegar</li>
+            <li>2 teaspoons vanilla extract</li>
+            <li>2 large eggs, room temperature</li>
+            <li>1 ounce red food coloring, more or less depending on how deep you want the color</li>
+            <li>8 ounces cream cheese, room temperature</li>
+          </ul>
+          <h3>Instructions</h3>
+          <ol>
+            <li>Preheat oven to 325°F. Spray 2, 9-inch round cake pans with nonstick cooking spray and line each with
+              parchment paper. Set aside.</li>
+            <li>In a large bowl, whisk together the flour, sugar, baking soda, baking powder, cocoa powder, and salt.
+            </li>
+            <li>In a separate bowl, whisk together the mayonnaise, eggs, buttermilk, vanilla, red food coloring, hot
+              water, and vinegar.</li>
+            <li>Slowly add the wet ingredients to the dry ingredients, mixing until just combined.</li>
+            <li>Divide the batter equally between the prepared pans. Bake for 35-40 minutes, or until a toothpick comes
+              out mostly clean. A few crumbs are what you want for a MOIST cake!</li>
+            <li>Allow the cakes to cool for 10-15 minutes in the pans. Then, turn the cakes out onto a rack to cool
+              completely. After the cakes have cooled completely, make the frosting.</li>
+            <li>To a large bowl, add the butter, cream cheese, and vanilla. Using a handheld mixer on medium speed,
+              blend until the ingredients are fully incorporated and smooth.</li>
+            <li>Add confectioners' sugar, one cup at a time, until the frosting is light and creamy.</li>
+            <li>Cover the cooled cake in a thin layer of frosting, putting it between the layers and around the outside
+              of the cake. Serve.</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelector('.section-2').style.display = 'flex';
+      // Hide all sections except the selected one
+      document.querySelectorAll('section:not(#' + sectionId + ')').forEach(section => {
+        section.style.display = 'none';
+      });
+      // Show the selected section
+      document.getElementById(sectionId).style.display = 'block';
+    }
+  </script>
+
+  <footer class="fixed-bottom">
+    <p>&copy; 2023 Mystery Dessert Diary</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
