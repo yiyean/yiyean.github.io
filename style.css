@@ -209,6 +209,7 @@ p, .section-1 ul li, .section-1 ol li {
 }
 
 .cake-item {
+  flex: 1 0 10rem;
   border: 0.3rem solid #ffc594;
   border-radius: 1rem;
   margin: 1rem;
