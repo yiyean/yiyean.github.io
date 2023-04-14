@@ -121,7 +121,7 @@ h6 {
 p {
   font-family: 'Avenir Light';
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.25;
   margin: 1rem 0;
   text-align: justify;
 }
@@ -151,13 +151,13 @@ p {
 
 .cakes-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .cakes-item {
-  flex: 1 0 300px;
+  flex: 1 0 10rem;
   border: 0.3rem solid #ffc594;
   border-radius: 1rem;
   margin: 1rem;
@@ -186,7 +186,6 @@ p {
     width: 100%;
   }
 }
-
 
 .fixed-bottom {
   background-color: #fda172;
