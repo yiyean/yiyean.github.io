@@ -323,6 +323,13 @@ p {
   border-color: 1rem #fda172;
 }
 
+label, select, input, button {
+  font-family: 'Avenir Light';
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 1rem 0;
+}
+
 .comment .star {
   color: orange;
   margin-right: 0.2rem;
